@@ -18,3 +18,28 @@
         font-size: 50%;
     }
 }
+
+@media (max-width: 395px) {
+    body {
+        min-width: 310px;
+    }
+
+    span {
+        font-size: 0.5em;
+        margin: 10px 10px;
+    }
+
+    .player {
+        font-size: 0.7em;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .timer {
+        font-size: 1.2em;
+    }
+
+    button.reset {
+        font-size: 30%;
+    }
+}
